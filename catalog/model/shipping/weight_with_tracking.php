@@ -41,7 +41,7 @@ class ModelShippingWeightWithTracking extends Model {
 				if ((string)$cost != '') {
 					$quote_data['weight_with_tracking_' . $result['geo_zone_id']] = array(
 						'code'         => 'weight_with_tracking.weight_with_tracking_' . $result['geo_zone_id'],
-						'title'        => $result['name'],
+						'title'        => $result['name'] . '(' . $this->language->get('text_with_tracking_code') . ')',
 						'cost'         => $cost,
 						'tax_class_id' => $this->config->get('weight_with_tracking_tax_class_id'),
 						'text'         => $this->currency->format($this->tax->calculate($cost, $this->config->get('weight_with_tracking_tax_class_id'), $this->config->get('config_tax')))
