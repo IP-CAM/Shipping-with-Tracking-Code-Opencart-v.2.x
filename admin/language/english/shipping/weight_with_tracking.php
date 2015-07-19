@@ -1,11 +1,11 @@
 <?php
 // Heading
-$_['heading_title']    = 'PostNL Shipping With Tracking Code';
+$_['heading_title']    = 'Shipping With Tracking Code';
 
 // Text
 $_['text_shipping']    = 'Shipping';
-$_['text_success']     = 'Success: You have modified PostNL shipping with tracking code!';
-$_['text_edit']        = 'Edit PostNL Shipping With Tracking Code';
+$_['text_success']     = 'Success: You have modified shipping with tracking code!';
+$_['text_edit']        = 'Edit Shipping With Tracking Code';
 
 // Entry
 $_['entry_rate']       = 'Rates';
